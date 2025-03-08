@@ -1,39 +1,26 @@
 {
-  "name": "backend-setup",
+  "name": "trekx-api",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "",
     "dev": "nodemon src/index.js"
   },
+  "keywords": [],
   "author": "",
-  "license": "MIT",
-  "description": "### A Simple Video Streaming Platform",
-  "devDependencies": {
-    "@types/node": "^20.14.11",
-    "nodemon": "^3.1.4",
-    "prettier": "^3.3.2",
-    "typescript": "^5.5.3"
-  },
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "apollo-server-express": "^3.13.0",
-    "bcrypt": "^5.1.1",
     "bcryptjs": "^3.0.2",
-    "cloudinary": "^2.2.0",
-    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "ffmpeg": "^0.0.4",
-    "graphql": "^16.10.0",
     "jsonwebtoken": "^9.0.2",
-    "kafkajs": "^2.2.4",
     "mongoose": "^8.12.1",
-    "mongoose-aggregate-paginate-v2": "^1.1.1",
-    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
     "mysql2": "^3.13.0",
-    "nanoid": "^5.0.7"
-  },
-  "keywords": []
+    "nodemon": "^3.1.9"
+  }
 }
